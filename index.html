@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<meta name="description" content="Emna Chebbi — DevSecOps & Platform Engineering | Software Engineering Student">
+<meta name="description" content="Emna Chebbi — DevOps & DevSecOps Engineer | Software Engineer">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Emna Chebbi | DevSecOps & Platform Engineering</title>
+<title>Emna Chebbi | DevOps & DevSecOps Engineer</title>
 <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -268,8 +268,10 @@
   .footer-social a{
     width:38px;height:38px;border-radius:8px;border:1px solid var(--border);
     display:flex;align-items:center;justify-content:center;color:var(--text-dim);
+    cursor:pointer;position:relative;
   }
   .footer-social a:hover{border-color:var(--cyan);color:var(--cyan);}
+  .footer-social a i{pointer-events:none;}
   .copyright{margin-top:26px;text-align:center;font-family:var(--mono);font-size:.75rem;color:var(--text-faint);}
 
   /* scroll reveal */
@@ -309,11 +311,11 @@
   <div class="container">
     <div class="hero-grid">
       <div>
-        <div class="status-pill"><span class="dot"></span>OPEN TO INTERNSHIPS &amp; NEW GRAD ROLES</div>
-        <h1>Emna Chebbi<br><span class="accent">DevSecOps &amp; Platform Engineering</span></h1>
-        <p class="lead">Software engineering student who turns fragile deployments into automated, observable, security-checked pipelines — from Kubernetes and GitOps to full-stack delivery.</p>
+        <div class="status-pill"><span class="dot"></span>OPEN TO JOBS &amp; DEVOPS ROLES</div>
+        <h1>Emna Chebbi<br><span class="accent">DevSecOps &amp; DevOps Engineering</span></h1>
+        <p class="lead">DevOps engineer who turns fragile deployments into automated, observable, security-checked pipelines — from Kubernetes and GitOps to full-stack delivery.</p>
         <div class="hero-ctas">
-          <a href="assets/images/work/Emna Chebbi.pdf" class="btn btn-primary" target="_blank"><i class="fas fa-file-arrow-down"></i> View Resume</a>
+          <a href="assets/Emna Chebbi.pdf" class="btn btn-primary" target="_blank"><i class="fas fa-file-arrow-down"></i> View Resume</a>
           <a href="https://github.com/Emna-chebbi" class="btn btn-outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
           <a href="#contact" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Get in touch</a>
         </div>
@@ -325,7 +327,7 @@
         </div>
         <div class="pipeline-stages">
           <div class="pstage done"><span class="icon"><i class="fas fa-check"></i></span><span class="label">Build — Docker multi-stage</span><span class="status">passed</span></div>
-          <div class="pstage done"><span class="icon"><i class="fas fa-check"></i></span><span class="label">Test — unit &amp; UI (Selenium)</span><span class="status">passed</span></div>
+          <div class="pstage done"><span class="icon"><i class="fas fa-check"></i></span><span class="label">Test — unit &amp; integration</span><span class="status">passed</span></div>
           <div class="pstage done"><span class="icon"><i class="fas fa-check"></i></span><span class="label">Scan — SonarQube · Trivy · Checkov</span><span class="status">passed</span></div>
           <div class="pstage active"><span class="icon"><i class="fas fa-arrows-rotate"></i></span><span class="label">Deploy — ArgoCD sync</span><span class="status">running</span></div>
           <div class="pstage"><span class="icon"><i class="fas fa-eye"></i></span><span class="label">Monitor — Prometheus / Grafana</span><span class="status">queued</span></div>
@@ -341,12 +343,11 @@
     <div class="eyebrow">whoami</div>
     <h2 class="section-title">About</h2>
     <div class="about-grid">
-      <div class="reveal">
-        <p>I'm a software engineering student at the International Polytechnic School, currently closing out an end-of-studies internship in <strong>DevSecOps and GitOps</strong>, where I helped turn a production system running on PM2 into a Kubernetes platform with automated, security-checked delivery.</p>
-        <p><strong>What I actually do:</strong> containerize services, wire up CI/CD pipelines that test and scan before anything ships, keep secrets out of plaintext, and put monitoring in place so problems are visible before they're incidents.</p>
-        <p><strong>Where I come from:</strong> full-stack development, data analysis, and enterprise systems (ERP, SAP) — which is why I care about pipelines that are fast <em>and</em> correct, not just fast.</p>
-        <p>Open to internships and roles in DevOps, platform engineering, and security-minded software delivery.</p>
-      </div>
+    <div class="reveal">
+      <p>I'm a <strong>Software Engineer</strong> specialized in <strong>DevOps, Cloud Engineering, and Artificial Intelligence</strong>, building reliable solutions at the intersection of software development, automation, cloud infrastructure, and security.</p>
+      <p>I focus on modern software delivery through <strong>DevOps and DevSecOps practices, CI/CD automation, GitOps workflows, Infrastructure as Code, Docker, Kubernetes, and cloud-native technologies</strong>.</p>
+      <p>Passionate about engineering scalable, secure, and automated solutions that bridge development and operations. 🚀</p>
+    </div>
       <div class="contact-list reveal">
         <div class="contact-row">
           <i class="fab fa-github"></i>
@@ -374,39 +375,118 @@
   <div class="container">
     <div class="eyebrow">cat skills.yaml</div>
     <h2 class="section-title">Skills &amp; Tools</h2>
-    <p class="section-sub">Grouped the way I'd actually organize a stack: platform &amp; delivery first, then the security/observability layer, then application development.</p>
+    <p class="section-sub">A structured overview of my technical stack across DevOps, cloud infrastructure, security, software engineering, and delivery practices.</p>
+
     <div class="skills-grid">
+
       <div class="skill-card devops reveal">
-        <div class="skill-card-head"><span class="icn"><i class="fas fa-diagram-project"></i></span><h4>DevSecOps &amp; Platform</h4></div>
+        <div class="skill-card-head">
+          <span class="icn"><i class="fas fa-diagram-project"></i></span>
+          <h4>DevOps &amp; Cloud Engineering</h4>
+        </div>
         <div class="tags">
-          <span class="tag">Kubernetes</span><span class="tag">ArgoCD</span><span class="tag">GitOps</span>
-          <span class="tag">GitHub Actions</span><span class="tag">Jenkins</span><span class="tag">Docker</span>
-          <span class="tag">HashiCorp Vault</span><span class="tag">CI/CD</span>
+          <span class="tag">Docker</span>
+          <span class="tag">Kubernetes</span>
+          <span class="tag">Helm</span>
+          <span class="tag">ArgoCD</span>
+          <span class="tag">GitOps</span>
+          <span class="tag">GitHub Actions</span>
+          <span class="tag">Jenkins</span>
+          <span class="tag">CI/CD</span>
+          <span class="tag">Linux</span>
+          <span class="tag">Git</span>
         </div>
       </div>
+
+
+      <div class="skill-card cloud reveal">
+        <div class="skill-card-head">
+          <span class="icn"><i class="fas fa-cloud"></i></span>
+          <h4>Cloud &amp; Infrastructure as Code</h4>
+        </div>
+        <div class="tags">
+          <span class="tag">AWS</span>
+          <span class="tag">Microsoft Azure</span>
+          <span class="tag">Terraform</span>
+          <span class="tag">Ansible</span>
+          <span class="tag">Infrastructure as Code</span>
+          <span class="tag">Cloud-Native Architecture</span>
+        </div>
+      </div>
+
+
       <div class="skill-card security reveal">
-        <div class="skill-card-head"><span class="icn"><i class="fas fa-shield-halved"></i></span><h4>Security &amp; Observability</h4></div>
+        <div class="skill-card-head">
+          <span class="icn"><i class="fas fa-shield-halved"></i></span>
+          <h4>DevSecOps &amp; Observability</h4>
+        </div>
         <div class="tags">
-          <span class="tag">SonarQube (SAST)</span><span class="tag">Trivy</span><span class="tag">Checkov (IaC)</span>
-          <span class="tag">OWASP ZAP (DAST)</span><span class="tag">Prometheus</span><span class="tag">Grafana</span>
+          <span class="tag">SonarQube / SonarCloud</span>
+          <span class="tag">Trivy</span>
+          <span class="tag">Checkov</span>
+          <span class="tag">OWASP ZAP</span>
+          <span class="tag">Gitleaks</span>
+          <span class="tag">HashiCorp Vault</span>
+          <span class="tag">Prometheus</span>
+          <span class="tag">Grafana</span>
           <span class="tag">Alertmanager</span>
+          <span class="tag">Loki</span>          
         </div>
       </div>
+
+
       <div class="skill-card dev reveal">
-        <div class="skill-card-head"><span class="icn"><i class="fas fa-code"></i></span><h4>Application Development</h4></div>
+        <div class="skill-card-head">
+          <span class="icn"><i class="fas fa-code"></i></span>
+          <h4>Software Engineering</h4>
+        </div>
         <div class="tags">
-          <span class="tag">Java</span><span class="tag">Python</span><span class="tag">React JS</span>
-          <span class="tag">Node JS</span><span class="tag">Angular</span><span class="tag">Next.js</span>
-          <span class="tag">Django</span><span class="tag">Flutter</span>
+          <span class="tag">Java</span>
+          <span class="tag">Spring Boot</span>
+          <span class="tag">Python</span>
+          <span class="tag">React</span>
+          <span class="tag">Angular</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">Next.js</span>
+          <span class="tag">Django</span>
+          <span class="tag">Flutter</span>
+          <span class="tag">REST APIs</span>
+          <span class="tag">GraphQL</span>
         </div>
       </div>
+
+
       <div class="skill-card data reveal">
-        <div class="skill-card-head"><span class="icn"><i class="fas fa-database"></i></span><h4>Data &amp; Enterprise</h4></div>
+        <div class="skill-card-head">
+          <span class="icn"><i class="fas fa-database"></i></span>
+          <h4>Data, AI &amp; Enterprise</h4>
+        </div>
         <div class="tags">
-          <span class="tag">MongoDB</span><span class="tag">SQL</span><span class="tag">Power BI</span>
-          <span class="tag">SAP</span><span class="tag">Agile / Scrum</span><span class="tag">Figma</span>
+          <span class="tag">Python Data Analysis</span>
+          <span class="tag">Machine Learning</span>
+          <span class="tag">SQL</span>
+          <span class="tag">MongoDB</span>
+          <span class="tag">Power BI</span>
+          <span class="tag">SAP</span>
+          <span class="tag">ERP Systems</span>
         </div>
       </div>
+
+
+      <div class="skill-card process reveal">
+        <div class="skill-card-head">
+          <span class="icn"><i class="fas fa-users"></i></span>
+          <h4>Engineering Practices</h4>
+        </div>
+        <div class="tags">
+          <span class="tag">Agile</span>
+          <span class="tag">Scrum</span>
+          <span class="tag">Kanban</span>
+          <span class="tag">Scrumban</span>
+          <span class="tag">Jira</span>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
@@ -415,19 +495,18 @@
 <section id="experience">
   <div class="container">
     <div class="eyebrow">git log --oneline experience</div>
-    <h2 class="section-title">Experience</h2>
-    <p class="section-sub">Internships that built up my delivery and platform experience, most recent first.</p>
+    <h2 class="section-title">Professional Experiences</h2>
 
     <div class="exp-card current reveal">
       <div class="exp-head">
         <div class="exp-head-left">
-          <div class="exp-logo"><i class="fas fa-shield-halved"></i></div>
+          <div class="exp-logo"><img src="assets/bebouncy.jpg" alt="BeBouncy"></div>
           <div>
-            <p class="exp-company">Be Bouncy Tunisia <span class="exp-current-badge">MOST RECENT</span></p>
-            <p class="exp-role">DevSecOps Intern — Internship</p>
+            <p class="exp-company">Be Bouncy </p>
+            <p class="exp-role">DevSecOps Engineer — Internship</p>
           </div>
         </div>
-        <span class="exp-date">Feb – Jun 2026 · 5 mos</span>
+        <span class="exp-date">Feb – Jun 2026</span>
       </div>
       <p class="exp-summary">Transformed the company's existing infrastructure into a production-grade DevSecOps and GitOps platform: Kubernetes-based orchestration, automated CI/CD, and full security + observability integration, delivered in a constrained environment.</p>
       <ul class="exp-list">
@@ -449,20 +528,23 @@
     <div class="exp-card reveal">
       <div class="exp-head">
         <div class="exp-head-left">
-          <div class="exp-logo"><img src="assets/images/work/pass.jpg" alt="PASS Consulting Group"></div>
+          <div class="exp-logo"><img src="assets/pass.jpg" alt="PASS Consulting Group"></div>
           <div>
             <p class="exp-company">PASS Consulting Group</p>
-            <p class="exp-role">Full-Stack Development in Agile Environment</p>
+            <p class="exp-role">Software Engineer — Internship</p>
           </div>
         </div>
         <span class="exp-date">Jun – Jul 2025</span>
       </div>
-      <p class="exp-summary">Contributed to company projects using full-stack technologies and agile methodologies in a professional consulting environment.</p>
+      <p class="exp-summary">
+      Contributed to the development of enterprise software solutions in a professional consulting environment, applying full-stack engineering practices, secure development principles, and Agile methodologies.
+      </p>
       <ul class="exp-list">
-        <li>Developed backend features using Java</li>
-        <li>Built frontend components with Angular</li>
-        <li>Used PAM for security and access management</li>
-        <li>Collaborated using Slack and Jira in an agile workflow</li>
+        <li>Developed and integrated backend features using Java, focusing on maintainable and reliable application logic.</li>
+        <li>Designed and implemented responsive frontend components with Angular to improve application functionality and user experience.</li>
+        <li>Worked with PAM (Privileged Access Management) solutions to support secure access control and authentication workflows.</li>
+        <li>Collaborated within Agile teams using Jira and Slack for task tracking, communication, and project coordination.</li>
+        <li>Participated throughout the software development lifecycle, from requirement analysis and implementation to testing and delivery.</li>
       </ul>
       <div class="tags">
         <span class="tag">Java</span><span class="tag">Angular</span><span class="tag">PAM</span>
@@ -473,20 +555,23 @@
     <div class="exp-card reveal">
       <div class="exp-head">
         <div class="exp-head-left">
-          <div class="exp-logo"><img src="assets/images/work/csi.png" alt="CSI International"></div>
+          <div class="exp-logo"><img src="assets/csi.jpg" alt="CSI International"></div>
           <div>
             <p class="exp-company">CSI International</p>
-            <p class="exp-role">ERP Development &amp; Customization</p>
+            <p class="exp-role">ERP Software Engineer — Internship</p>
           </div>
         </div>
         <span class="exp-date">Jun – Jul 2024</span>
       </div>
-      <p class="exp-summary">Customized ERP reporting tools and built a data management program in QAD to streamline supplier management.</p>
+      <p class="exp-summary">
+      Contributed to the customization and optimization of ERP solutions, improving business workflows, supplier management processes, and data integration efficiency.
+      </p>
       <ul class="exp-list">
-        <li>Customized ERP reporting tools to streamline supplier management</li>
-        <li>Developed Progress 4GL programs for QAD databases</li>
-        <li>Automated item creation with real-time validation</li>
-        <li>Designed a CSV import feature with data validation</li>
+        <li>Developed and enhanced QAD ERP functionalities using Progress 4GL, including interactive item management features and database-driven applications.</li>
+        <li>Automated item creation workflows with real-time validation to reduce manual operations and improve data accuracy.</li>
+        <li>Designed and implemented CSV import/export solutions to streamline bulk data integration and reporting processes.</li>
+        <li>Customized ERP reporting tools to support supplier management and improve operational efficiency.</li>
+        <li>Developed reliable QAD database solutions aligned with business requirements and operational needs.</li>
       </ul>
       <div class="tags">
         <span class="tag">QAD</span><span class="tag">Progress 4GL</span><span class="tag">ERP</span><span class="tag">CSV Processing</span>
@@ -636,12 +721,12 @@
   <div class="container">
     <div class="eyebrow">curl -X POST /contact</div>
     <h2 class="section-title">Get in touch</h2>
-    <p class="section-sub">Open to DevOps, platform engineering, and software engineering internships/roles. Reach out any of these ways.</p>
+    <p class="section-sub">Open to DevOps, DevSecOps, platform engineering roles. Reach out any of these ways.</p>
     <div class="contact-cards">
       <div class="cc reveal"><i class="fas fa-phone"></i><h4>Phone</h4><p>+216 29 009 266</p></div>
       <div class="cc reveal"><i class="fas fa-envelope"></i><h4>Email</h4><a href="mailto:emna.chebby19@gmail.com">emna.chebby19@gmail.com</a></div>
       <div class="cc reveal"><i class="fab fa-linkedin"></i><h4>LinkedIn</h4><a href="https://www.linkedin.com/in/emna-chebbi1" target="_blank">emna-chebbi1</a></div>
-      <div class="cc reveal"><i class="fas fa-download"></i><h4>Resume</h4><a href="assets/images/work/Emna Chebbi.pdf" download>Download CV</a></div>
+      <div class="cc reveal"><i class="fas fa-download"></i><h4>Resume</h4><a href="assets/Emna Chebbi.pdf" download>Download CV</a></div>
     </div>
   </div>
 </section>
@@ -657,7 +742,7 @@
         <a href="mailto:emna.chebby19@gmail.com"><i class="fas fa-envelope"></i></a>
       </div>
     </div>
-    <p class="copyright">© 2026 Emna Chebbi. Built &amp; deployed via GitHub Actions → Netlify.</p>
+    <p class="copyright">© 2026 Emna Chebbi. Built &amp; deployed via GitHub Actions</p>
   </div>
 </footer>
 
@@ -687,7 +772,7 @@
   }, { threshold: 0.12 });
   document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 
-  // cycle the hero pipeline stages so it feels alive
+  // cycle the hero pipeline stages
   const stages = document.querySelectorAll('.pstage');
   let activeIndex = 3; // Deploy starts active
   setInterval(() => {
